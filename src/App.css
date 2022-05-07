@@ -1,6 +1,38 @@
 :root{
   --yellow-color: #FFE600;
   --blue-color: #233E97;
-  --dark-blue: #111827;
+  --darkblue-color: #111827;
   --gray-color: #ACAEB3;
+}
+*{
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.yellow-color{color:var(--yellow-color)}
+.blue-color{color:var(--blue-color)}
+.darkblue-color{color:var(--darkblue-color)}
+.gray-color{color:var(--gray-color)}
+
+button{
+  background: white;
+  color: var(--blue-color);
+  font-weight: bold;
+  padding: 0px 25px;
+  border-radius: 30px;
+}
+
+button.outline{
+  background: none;
+  border: 1px solid var(--gray-color);
+  color: white;
+}
+
+
+/* Modify  */
+.navbar-light .navbar-nav .nav-link{
+  color: white
 }
