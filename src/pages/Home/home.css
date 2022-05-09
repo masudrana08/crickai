@@ -25,5 +25,9 @@
   display: flex;
 }
 /* Carousel  */
+.carouselCont{
+  position: relative;
+  padding: 0 80px;
+}
 /* Signup  */
 /* Footer  */

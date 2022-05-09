@@ -1,0 +1,20 @@
+.mycarouselCont{
+  
+}
+.mycarouselCont .content  *{
+  color: var(--gray-color)
+}
+.mycarouselCont .react-multiple-carousel__arrow--left, .mycarouselCont .react-multiple-carousel__arrow--right{
+  display: none;
+}
+
+.mycarouselCont .prevbtn{
+  position: absolute;
+  left: 0;
+  top: 45%;
+}
+.mycarouselCont .nextbtn{
+  position: absolute;
+  right: 0;
+  top: 45%;
+}

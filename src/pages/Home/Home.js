@@ -3,7 +3,8 @@ import MyNavbar from "../../components/MyNavbar/MyNavbar";
 import "./home.css";
 import HightlightImg from "../../assets/highlightImg.png";
 import LiveStreamSS from "../../assets/livestream.png";
-import { Col, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
+import MyCarousel from "../../components/MyCarousel/MyCarousel";
 export default function Home() {
   return (
     <div>
@@ -92,7 +93,9 @@ export default function Home() {
       </div>
 
       {/* Carousel  */}
-      <div className="carouselCont"></div>
+      <div className='carouselCont'>
+        <MyCarousel />
+      </div>
 
       {/* Signup  */}
       <div className="signupCont"></div>
