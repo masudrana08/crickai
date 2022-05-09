@@ -3,12 +3,27 @@
  background-image: url(../../assets/header-bg.png);
  background-size: cover;
  background-position: center;
- min-height: 100vh;
 }
 
+.headerCont .mainContentArea{
+  text-align: center;
+  padding: 200px 0;
+}
 
 /* Highlight  */
+.highlightsCont{
+  text-align: center;
+}
 /* Live  */
+.liveCont{
+  background-image: url(../../assets/liveBg.png);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 0; 
+}
+.liveCont .sectionA__bottom{
+  display: flex;
+}
 /* Carousel  */
 /* Signup  */
 /* Footer  */
