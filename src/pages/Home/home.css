@@ -30,4 +30,24 @@
   padding: 0 80px;
 }
 /* Signup  */
+.signupCont{
+  text-align: center;
+  background-image: url(../../assets/signup-bg.png);
+  background-size: cover;
+  background-position: center;
+}
 /* Footer  */
+.footerCont{
+  background: var(--darkblue-color)
+}
+.footerCont a{
+  color: var(--gray-color)
+}
+.footerCont .subscribeCont input{
+  width: 100%;
+  padding: 4px 10px;
+  
+}
+.footerCont .subscribeCont .subscribeBtn{
+  float: right;
+}
