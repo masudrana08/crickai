@@ -66,10 +66,11 @@ export default function Home() {
         <Container>
           <Row>
             <Col md={5}>
+            <h2 className='hideInDesktop mb-4'>Superior quality live <br /> stream.</h2>
               <img src={LiveStreamSS} alt="" />
             </Col>
             <Col md={5}>
-              <h2>Superior quality live <br /> stream.</h2>
+              <h2 className='hideInAndroid'>Superior quality live <br /> stream.</h2>
               <p className='gray-color'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh
                 sagittis libero fringilla augue quis rhoncus consectetur. Congue
@@ -92,9 +93,9 @@ export default function Home() {
               </div>
             </Col>
           </Row>
-          <Row className='mt-5'>
+          <Row className=" mt-5 flex-reverse">
             <Col md={5}>
-              <h2>Easy to use streaming <br /> platform.</h2>
+              <h2 className='hideInAndroid'>Easy to use streaming <br /> platform.</h2>
               <p className='gray-color'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh
                 sagittis libero fringilla augue quis rhoncus consectetur.
@@ -106,6 +107,7 @@ export default function Home() {
               </ul>
             </Col>
             <Col md={5}>
+            <h2 className='hideInDesktop mb-4 mt-5'>Easy to use streaming <br /> platform.</h2>
               <img src={LiveStreamSS} alt="" />
             </Col>
           </Row>
@@ -129,11 +131,11 @@ export default function Home() {
       <div className="footerCont">
         <Container>
           <Row>
-            <Col md={3} style={{padding:'0 40px'}}>
+            <Col lg={3} style={{padding:'0 40px'}}>
               <img style={{width:'159px', height:'81px'}} className='mb-4' src={Logo} alt="" />
               <p className='gray-color'>4517 Washington Ave. Manchester, Kentucky 39495</p>
             </Col>
-            <Col md={2}>
+            <Col lg={2}>
               <h6 >Quick Links</h6>
               <div>
                 <a href="#">Home</a>
@@ -151,7 +153,7 @@ export default function Home() {
                 <a href="#">Contact Us</a>
               </div>
             </Col>
-            <Col md={2}>
+            <Col lg={2}>
               <h6>Legal</h6>
               <div>
                 <a href="#">Privacy Policy</a>
@@ -160,7 +162,7 @@ export default function Home() {
                 <a href="#">Terms and Conditions</a>
               </div>
             </Col>
-            <Col md={2}>
+            <Col lg={2}>
               <h6>Contact Us</h6>
               <div>
                 <a href="#">example@gmail.com</a>
@@ -169,7 +171,7 @@ export default function Home() {
                 <a href="#">(239) 555-0108</a>
               </div>
             </Col>
-            <Col md={3}>
+            <Col lg={3}>
               <h6>Newsletter</h6>
               <p>Never miss an update. Subscribe to our newsletter.</p>
               <div className="subscribeCont">

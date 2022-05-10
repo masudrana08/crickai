@@ -110,24 +110,33 @@
   }  
 }
 
+@media screen and (max-width: 767px) {
+ .liveCont .flex-reverse{
+   display: flex;
+   flex-direction: column-reverse;
+ }
+}
+
 /* Android to Tab ====================================== */
 @media screen and (max-width: 991px) {
   /* Header  */
   .headerCont .mainContentArea{
     padding: 50px 10px;
   }
- 
+  .footerCont{
+    text-align: center;
+  }
   /* Highlight  */
+  .highlightsCont .flex-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+  }
   /* Live  */
   /* Carousel  */
   /* Signup  */
   /* Footer  */
-  .footerCont{
-    text-align: center;
-  }
-  /* .footerCont .row{
-    row-gap: 25px;
-  } */
+  
+
 } 
 
 /* Only Android  ====================================== */
@@ -138,10 +147,7 @@
     width: 90%;
   }
   /* Highlight  */
-  .highlightsCont .flex-reverse{
-    display: flex;
-    flex-direction: column-reverse;
-  }
+ 
   /* Live  */
   .liveCont{
     padding: 40px 10px;
@@ -160,3 +166,4 @@
     margin-top: 10px;
   }
 } 
+

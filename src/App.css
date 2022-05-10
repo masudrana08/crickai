@@ -102,11 +102,26 @@ h2{
   border: none;
 }
 
+
+
+
 @media screen and (max-width: 425px) {
   h1{
     font-size: 38px;
   }
   h2{
     font-size: 32px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .hideInAndroid{
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hideInDesktop{
+    display: none;
   }
 }
