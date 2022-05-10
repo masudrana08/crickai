@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import Carousel from "react-multi-carousel";
 import Profile1 from '../../assets/profile1.png'
 import Profile2 from '../../assets/profile2.png'
+import {IoIosArrowForward, IoIosArrowBack} from 'react-icons/io'
 import "react-multi-carousel/lib/styles.css";
 import './mycarousel.css'
 
@@ -77,14 +78,16 @@ export default function MyCarousel() {
   }
   return (
     <div className='mycarouselCont'>
-      <button className='prevbtn' onClick={prevSlide}>Prev</button>
+      <h4 className='darkblue-color text-center mb-5'>What our customers say</h4>
+      <IoIosArrowBack className='prevbtn' />
+      <button  onClick={prevSlide}></button>
       <Carousel ref={carouselRef} responsive={responsive} autoPlaySpeed={60000}>
        {
          items.map((item, i)=>{
            return (
              <div className='content'>
                <img src={item.img} alt="" />
-               <p>{item.description}</p>
+               <p className='mt-3'>{item.description}</p>
                <div>
                  <h5 className='text-dark'>{item.name}</h5>
                  <p style={{fontStyle:'italic'}}>{item.title}</p>
@@ -95,7 +98,7 @@ export default function MyCarousel() {
        }
        
       </Carousel>
-      <button className='nextbtn' onClick={nextSlide}>Next</button>
+      <IoIosArrowForward className='nextbtn' onClick={nextSlide} />
       
     </div>
   )
