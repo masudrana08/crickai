@@ -49,7 +49,8 @@
   justify-content: center;
 }
 .liveCont .row img{
-  max-width: 95%;
+  max-width: 100%;
+  margin: auto;
 }
 .liveCont .sectionA__bottom{
   display: flex;
