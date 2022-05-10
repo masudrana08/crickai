@@ -79,7 +79,7 @@ export default function MyCarousel() {
   return (
     <div className='mycarouselCont'>
       
-      <IoIosArrowBack className='prevbtn' />
+      <IoIosArrowBack className='prevbtn' onClick={prevSlide} />
       <button  onClick={prevSlide}></button>
       <Carousel ref={carouselRef} responsive={responsive} autoPlaySpeed={60000}>
        {
