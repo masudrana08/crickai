@@ -108,6 +108,7 @@
   .carouselCont{
     padding: 0 10%;
   }  
+  
 }
 
 @media screen and (max-width: 767px) {
@@ -125,6 +126,9 @@
   }
   .footerCont{
     text-align: center;
+  }
+  .footerCont .row{
+    justify-content: center;
   }
   /* Highlight  */
   .highlightsCont .flex-reverse{

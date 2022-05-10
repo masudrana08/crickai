@@ -171,7 +171,7 @@ export default function Home() {
                 <a href="#">(239) 555-0108</a>
               </div>
             </Col>
-            <Col lg={3}>
+            <Col md={6} lg={3} className='newsletter'>
               <h6>Newsletter</h6>
               <p>Never miss an update. Subscribe to our newsletter.</p>
               <div className="subscribeCont">
