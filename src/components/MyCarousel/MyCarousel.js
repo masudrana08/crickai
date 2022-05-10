@@ -78,7 +78,7 @@ export default function MyCarousel() {
   }
   return (
     <div className='mycarouselCont'>
-      <h4 className='darkblue-color text-center mb-5'>What our customers say</h4>
+      
       <IoIosArrowBack className='prevbtn' />
       <button  onClick={prevSlide}></button>
       <Carousel ref={carouselRef} responsive={responsive} autoPlaySpeed={60000}>

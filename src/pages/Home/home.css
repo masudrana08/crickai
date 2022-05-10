@@ -67,10 +67,12 @@
   background-image: url(../../assets/signup-bg.png);
   background-size: cover;
   background-position: center;
+  padding: 50px 10px;
 }
 /* Footer  */
 .footerCont{
-  background: var(--darkblue-color)
+  background: var(--darkblue-color);
+  padding: 50px 10px;
 }
 .footerCont a{
   color: var(--gray-color)
@@ -109,6 +111,12 @@
   /* Carousel  */
   /* Signup  */
   /* Footer  */
+  .footerCont{
+    text-align: center;
+  }
+  .footerCont .row{
+    row-gap: 25px;
+  }
 } 
 
 /* Only Android  ====================================== */
@@ -129,5 +137,15 @@
   }
   /* Carousel  */
   /* Signup  */
+  .signupCont button{
+    width: 90%;
+    margin: auto;
+  }
+
   /* Footer  */
+  .footerCont .subscribeCont .subscribeBtn{
+    float: none;
+    text-align: center;
+    margin-top: 10px;
+  }
 } 

@@ -114,6 +114,7 @@ export default function Home() {
 
       {/* Carousel  */}
       <div className="carouselCont">
+      <h3 className='darkblue-color text-center mt-5'>What our customers say</h3>
         <MyCarousel />
       </div>
 
@@ -129,7 +130,7 @@ export default function Home() {
         <Container>
           <Row>
             <Col md={2}>
-              <img src={Logo} alt="" />
+              <img style={{width:'120px'}} className='mb-4' src={Logo} alt="" />
               <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
             </Col>
             <Col md={2}>
