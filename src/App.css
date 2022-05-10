@@ -80,7 +80,9 @@ h1{
 */
 /* Modify  */
 .navbar-light .navbar-nav .nav-link{
-  color: white
+  color: var(--darkblue-color);
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 .row{
   --bs-gutter-x: 0

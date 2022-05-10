@@ -1,12 +1,11 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo-blue.png";
 import "./mynavbar.css";
 export default function MyNavbar() {
   return (
     <div>
-      <Container>
-      <Navbar expand="lg" className="navbarCont">
+      <Navbar expand="lg" className="navbarCont" bg='light'>
         <div className="toogleSection">
           <div>
             <img style={{ width: "80px" }} src={Logo} alt="" />
@@ -24,14 +23,12 @@ export default function MyNavbar() {
                 <Nav.Link href="#">Reviews</Nav.Link>
                 <Nav.Link href="#">Support</Nav.Link>
                 <Nav.Link href="#">Login</Nav.Link>
-                <button>Signup</button>
+                <button className='signupBtn'>Signup</button>
               </Nav>
             </Navbar.Collapse>
           </div>
         </div>
       </Navbar>
-      </Container>
-      
     </div>
   );
 }
