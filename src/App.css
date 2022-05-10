@@ -89,3 +89,10 @@ h1{
 .row{
   --bs-gutter-x: 0
 }
+
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+.navbar-light .navbar-toggler{
+  border: none;
+}

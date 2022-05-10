@@ -18,16 +18,19 @@
   margin-left: auto;
 }
 @media screen and (max-width: 991px) {
+
   .navbar{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    row-gap:20px;
   }
   .navbarCont .toogleSection{
     width: 100%;
   }
   .navbarCont .itemSection{
     margin-left: 0;
+  }
+  .navbarCont .nav-items{
+    margin-top: 20px
   }
 }

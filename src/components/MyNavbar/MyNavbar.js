@@ -17,7 +17,7 @@ export default function MyNavbar() {
         <div className='itemSection'>
           <div >
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
+              <Nav className="me-auto nav-items">
                 <Nav.Link href="#">Live Stream</Nav.Link>
                 <Nav.Link href="#">Game Highlights</Nav.Link>
                 <Nav.Link href="#">Reviews</Nav.Link>

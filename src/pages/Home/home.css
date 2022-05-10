@@ -122,7 +122,10 @@
 /* Only Android  ====================================== */
 @media screen and (max-width: 425px) {
   /* Header  */
-
+  .headerCont .mainContentArea h1{
+    font-size: 2.3rem;
+    font-weight: 600;
+  }
   .headerCont .mainContentArea button{
     width: 90%;
   }
