@@ -34,76 +34,82 @@ export default function Home() {
       <div className="highlightsCont">
         <Container>
           {" "}
-          <h2 className="darkblue-color">
+          <h2 className="darkblue-color mb-5">
             Rewatch your favorite game highlights <br /> on any device
           </h2>
         </Container>
-        <Row className="anchor">
-          <Col xs={6} md={3}>
-            <a href="">Instant Share</a>
-          </Col>
-          <Col xs={6} md={3}>
-            <a href="">Replay</a>
-          </Col>
-          <Col xs={6} md={3}>
-            <a href="">4K Ultra HD</a>
-          </Col>
-          <Col xs={6} md={3}>
-            <a href="">Watch Anywhere</a>
-          </Col>
-        </Row>
-        <div>
-          <img style={{ maxWidth: "100%" }} src={HightlightImg} alt="" />
+        <div className="flex-reverse">
+          <Container>
+            <Row className="anchor">
+              <Col xs={6} md={3}>
+                <a href="">Instant Share</a>
+              </Col>
+              <Col xs={6} md={3}>
+                <a href="">Replay</a>
+              </Col>
+              <Col xs={6} md={3}>
+                <a href="">4K Ultra HD</a>
+              </Col>
+              <Col xs={6} md={3}>
+                <a href="">Watch Anywhere</a>
+              </Col>
+            </Row>
+          </Container>
+          <div>
+            <img style={{ maxWidth: "100%" }} src={HightlightImg} alt="" />
+          </div>
         </div>
       </div>
 
       {/* Live  */}
       <div className="liveCont">
-        <Row>
-          <Col md={5}>
-            <img src={LiveStreamSS} alt="" />
-          </Col>
-          <Col md={5}>
-            <h4>Superior quality live stream.</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh
-              sagittis libero fringilla augue quis rhoncus consectetur. Congue
-              eu etiam augue et amet, adipiscing nunc, sed nibh. Porttitor
-              sapien mi lorem.
-            </p>
-            <div className="sectionA__bottom">
-              <div>
-                <h4>4K</h4>
-                <p>Ultra HD</p>
+        <Container>
+          <Row>
+            <Col md={5}>
+              <img src={LiveStreamSS} alt="" />
+            </Col>
+            <Col md={5}>
+              <h4>Superior quality live <br /> stream.</h4>
+              <p className='gray-color'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh
+                sagittis libero fringilla augue quis rhoncus consectetur. Congue
+                eu etiam augue et amet, adipiscing nunc, sed nibh. Porttitor
+                sapien mi lorem.
+              </p>
+              <div className="sectionA__bottom">
+                <div>
+                  <h5 className='yellow-color'>4K</h5>
+                  <p>Ultra HD</p>
+                </div>
+                <div>
+                  <h5 className='yellow-color'>Fast</h5>
+                  <p>Zero Delay</p>
+                </div>
+                <div>
+                  <h5 className='yellow-color'>Realtime</h5>
+                  <p>Updates</p>
+                </div>
               </div>
-              <div>
-                <h4>Fast</h4>
-                <p>Zero Delay</p>
-              </div>
-              <div>
-                <h4>Realtime</h4>
-                <p>Updates</p>
-              </div>
-            </div>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={5}>
-            <h4>Easy to use streaming platform.</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh
-              sagittis libero fringilla augue quis rhoncus consectetur.
-            </p>
-            <ul>
-              <li>Compatible with any screen size</li>
-              <li>Start watching games real quick.</li>
-              <li>Receive notifications directly to your phone</li>
-            </ul>
-          </Col>
-          <Col md={5}>
-            <img src={LiveStreamSS} alt="" />
-          </Col>
-        </Row>
+            </Col>
+          </Row>
+          <Row className='mt-5'>
+            <Col md={5}>
+              <h4>Easy to use streaming <br /> platform.</h4>
+              <p className='gray-color'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh
+                sagittis libero fringilla augue quis rhoncus consectetur.
+              </p>
+              <ul className='list'>
+                <li>Compatible with any screen size</li>
+                <li>Start watching games real quick.</li>
+                <li>Receive notifications directly to your phone</li>
+              </ul>
+            </Col>
+            <Col md={5}>
+              <img src={LiveStreamSS} alt="" />
+            </Col>
+          </Row>
+        </Container>
       </div>
 
       {/* Carousel  */}
