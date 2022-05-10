@@ -11,11 +11,19 @@
 }
 .headerCont .mainContentArea button{
   margin: 5px;
+  width: 222px;
+  height: 54px;
+  font-family: tommy;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 /* Highlight  */
 .highlightsCont{
   text-align: center;
   padding: 50px 0;
+}
+.highlightsCont h2{
+  font-size: 36px;
 }
 .highlightsCont .anchor{
   margin-top: 30px;
@@ -45,6 +53,7 @@
 }
 .liveCont .sectionA__bottom{
   display: flex;
+  justify-content: space-between;
 }
 .liveCont .list{
   list-style-image: url(../../assets/check.svg);
@@ -67,7 +76,7 @@
   background-image: url(../../assets/signup-bg.png);
   background-size: cover;
   background-position: center;
-  padding: 50px 10px;
+  padding: 99px 10px;
 }
 /* Footer  */
 .footerCont{
@@ -84,8 +93,14 @@
 }
 .footerCont .subscribeCont .subscribeBtn{
   float: right;
+  margin-top: 10px;
+  font-size: 16px;
 }
 
+.footerCont h6{
+  font-size: 18px;
+  margin-top: 53px;
+}
 
 
 
@@ -114,9 +129,9 @@
   .footerCont{
     text-align: center;
   }
-  .footerCont .row{
+  /* .footerCont .row{
     row-gap: 25px;
-  }
+  } */
 } 
 
 /* Only Android  ====================================== */

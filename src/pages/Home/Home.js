@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <div>
       {/* Header  */}
-      <div className="headerCont">
         <MyNavbar />
+      <div className="headerCont">
         <div className="mainContentArea">
           <h1>
             Every Cricket Match Live Stream in <br />{" "}
@@ -69,7 +69,7 @@ export default function Home() {
               <img src={LiveStreamSS} alt="" />
             </Col>
             <Col md={5}>
-              <h4>Superior quality live <br /> stream.</h4>
+              <h2>Superior quality live <br /> stream.</h2>
               <p className='gray-color'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh
                 sagittis libero fringilla augue quis rhoncus consectetur. Congue
@@ -94,7 +94,7 @@ export default function Home() {
           </Row>
           <Row className='mt-5'>
             <Col md={5}>
-              <h4>Easy to use streaming <br /> platform.</h4>
+              <h2>Easy to use streaming <br /> platform.</h2>
               <p className='gray-color'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh
                 sagittis libero fringilla augue quis rhoncus consectetur.
@@ -114,13 +114,13 @@ export default function Home() {
 
       {/* Carousel  */}
       <div className="carouselCont">
-      <h3 className='darkblue-color text-center mt-5'>What our customers say</h3>
+      <h2 className='darkblue-color text-center mt-5'>What our customers say</h2>
         <MyCarousel />
       </div>
 
       {/* Signup  */}
       <div className="signupCont">
-        <h4>Get Started Today</h4>
+        <h2>Get Started Today</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
         <button>SIGN UP</button>
       </div>
@@ -129,12 +129,12 @@ export default function Home() {
       <div className="footerCont">
         <Container>
           <Row>
-            <Col md={2}>
-              <img style={{width:'120px'}} className='mb-4' src={Logo} alt="" />
-              <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+            <Col md={3} style={{padding:'0 40px'}}>
+              <img style={{width:'159px', height:'81px'}} className='mb-4' src={Logo} alt="" />
+              <p className='gray-color'>4517 Washington Ave. Manchester, Kentucky 39495</p>
             </Col>
             <Col md={2}>
-              <h6>Quick Links</h6>
+              <h6 >Quick Links</h6>
               <div>
                 <a href="#">Home</a>
               </div>
@@ -169,12 +169,12 @@ export default function Home() {
                 <a href="#">(239) 555-0108</a>
               </div>
             </Col>
-            <Col md={4}>
+            <Col md={3}>
               <h6>Newsletter</h6>
               <p>Never miss an update. Subscribe to our newsletter.</p>
               <div className="subscribeCont">
                 <input type="text" placeholder="Email" />
-                <h6 className="subscribeBtn">Subscribe</h6>
+                <h6 className="subscribeBtn">SUBSCRIBE</h6>
               </div>
             </Col>
           </Row>

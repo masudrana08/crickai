@@ -2,8 +2,8 @@
   background-image: url(../../assets//menu.svg);
 }
 .navbarCont{
-  padding-left: 30px;
-  padding-right: 30px
+  padding: 14px 30px
+
 }
 .navbarCont .signupBtn{
   background: var(--blue-color);
@@ -12,9 +12,11 @@
 .navbarCont .toogleSection{
   display: flex;
   justify-content: space-between;
-  width: 50%;
 }
 .navbarCont .itemSection{
+  margin-left: auto;
+}
+.navbarCont .nav-items{
   margin-left: auto;
 }
 @media screen and (max-width: 991px) {
@@ -33,4 +35,9 @@
   .navbarCont .nav-items{
     margin-top: 20px
   }
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding: 0 23px
 }

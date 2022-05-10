@@ -8,9 +8,9 @@ export default function MyNavbar() {
       <Navbar expand="lg" className="navbarCont" bg='light'>
         <div className="toogleSection">
           <div>
-            <img style={{ width: "80px" }} src={Logo} alt="" />
+            <img style={{ width: "136px", height:'69px' }} src={Logo} alt="" />
           </div>
-          <div style={{marginLeft:'auto'}}>
+          <div style={{marginLeft:'auto', display:'flex'}}>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
           </div>
         </div>
