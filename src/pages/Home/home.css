@@ -80,7 +80,7 @@
 /* Footer  */
 .footerCont{
   background: var(--darkblue-color);
-  padding: 50px 10px;
+  padding: 50px 10px 10px;
 }
 .footerCont a{
   color: var(--gray-color)

@@ -178,6 +178,7 @@ export default function Home() {
               </div>
             </Col>
           </Row>
+          <p className='gray-color mt-5 text-center'>Copyright © 2022 Crick Ai. All Rights Reserved.</p>
         </Container>
       </div>
     </div>
