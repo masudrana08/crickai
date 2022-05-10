@@ -4,6 +4,9 @@
   --darkblue-color: #111827;
   --gray-color: #ACAEB3;
 }
+
+
+
 *{
   box-sizing: border-box;
   outline: none;
@@ -35,7 +38,46 @@ button.outline{
   color: white;
 }
 
+@font-face {
+  font-family: tommy;
+  src: url(./assets/fonts/A\ Thin_PERSONAL\ USE.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: tommy;
+  src: url(./assets/fonts/B\ Light_PERSONAL\ USE.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: tommy;
+  src: url(./assets/fonts/C\ Regular_PERSONAL\ USE.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: tommy;
+  src: url(./assets/fonts/D\ Medium_PERSONAL\ USE.otf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: tommy;
+  src: url(./assets/fonts/E\ Bold_PERSONAL\ USE.otf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: tommy;
+  src: url(./assets/fonts/F\ Black_PERSONAL\ USE.otf);
+  font-weight: 900;
+}
 
+h1{
+  font-family: tommy;
+  font-size: 3rem;
+  font-weight: 700;
+}
+/* 
+@media screen and (max-width: 991px) {
+} 
+*/
 /* Modify  */
 .navbar-light .navbar-nav .nav-link{
   color: white

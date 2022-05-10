@@ -9,11 +9,20 @@
   text-align: center;
   padding: 200px 0;
 }
-
+.headerCont .mainContentArea button{
+  margin: 5px;
+}
 /* Highlight  */
 .highlightsCont{
   text-align: center;
+  padding: 50px 0;
 }
+.highlightsCont .anchor{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  row-gap: 15px;
+}
+
 /* Live  */
 .liveCont{
   background-image: url(../../assets/liveBg.png);
@@ -51,3 +60,37 @@
 .footerCont .subscribeCont .subscribeBtn{
   float: right;
 }
+
+
+
+/* Android to Tab  */
+
+@media screen and (max-width: 991px) {
+  /* Header  */
+  .headerCont .mainContentArea{
+    padding: 50px 10px;
+  }
+  .headerCont .mainContentArea h1{
+    font-size: 2.5rem;
+  }
+
+  /* Highlight  */
+  /* Live  */
+  /* Carousel  */
+  /* Signup  */
+  /* Footer  */
+} 
+
+/* Only Android  */
+@media screen and (max-width: 425px) {
+  /* Header  */
+
+  .headerCont .mainContentArea button{
+    width: 90%;
+  }
+  /* Highlight  */
+  /* Live  */
+  /* Carousel  */
+  /* Signup  */
+  /* Footer  */
+} 

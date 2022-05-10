@@ -17,9 +17,9 @@ export default function Home() {
         <div className="mainContentArea">
           <h1>
             Every Cricket Match Live Stream in <br />{" "}
-            <span className="yellow-color">4K</span> Ultra HD mo
+            <span className="yellow-color">4K</span> Ultra HD
           </h1>
-          <p>
+          <p className="gray-color mt-4 mb-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat
             nam.
           </p>
@@ -32,25 +32,28 @@ export default function Home() {
 
       {/* Highlight  */}
       <div className="highlightsCont">
-        <h3 className="darkblue-color">
-          Rewatch your favorite game highlights <br /> on any device
-        </h3>
-        <div className="blue-color">
-          <div>
+        <Container>
+          {" "}
+          <h2 className="darkblue-color">
+            Rewatch your favorite game highlights <br /> on any device
+          </h2>
+        </Container>
+        <Row className="anchor">
+          <Col xs={6} md={3}>
             <a href="">Instant Share</a>
-          </div>
-          <div>
+          </Col>
+          <Col xs={6} md={3}>
             <a href="">Replay</a>
-          </div>
-          <div>
+          </Col>
+          <Col xs={6} md={3}>
             <a href="">4K Ultra HD</a>
-          </div>
-          <div>
+          </Col>
+          <Col xs={6} md={3}>
             <a href="">Watch Anywhere</a>
-          </div>
-        </div>
+          </Col>
+        </Row>
         <div>
-          <img style={{ maxWidth: "90%" }} src={HightlightImg} alt="" />
+          <img style={{ maxWidth: "100%" }} src={HightlightImg} alt="" />
         </div>
       </div>
 
