@@ -22,9 +22,7 @@
   text-align: center;
   padding: 50px 0;
 }
-.highlightsCont h2{
-  font-size: 36px;
-}
+
 .highlightsCont .anchor{
   margin-top: 30px;
   margin-bottom: 30px;
@@ -118,10 +116,7 @@
   .headerCont .mainContentArea{
     padding: 50px 10px;
   }
-  .headerCont .mainContentArea h1{
-    font-size: 2.5rem;
-  }
-
+ 
   /* Highlight  */
   /* Live  */
   /* Carousel  */
@@ -138,10 +133,7 @@
 /* Only Android  ====================================== */
 @media screen and (max-width: 425px) {
   /* Header  */
-  .headerCont .mainContentArea h1{
-    font-size: 2.3rem;
-    font-weight: 600;
-  }
+  
   .headerCont .mainContentArea button{
     width: 90%;
   }

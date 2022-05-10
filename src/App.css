@@ -101,3 +101,12 @@ h2{
 .navbar-light .navbar-toggler{
   border: none;
 }
+
+@media screen and (max-width: 425px) {
+  h1{
+    font-size: 38px;
+  }
+  h2{
+    font-size: 32px;
+  }
+}
