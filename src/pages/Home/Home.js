@@ -20,8 +20,7 @@ export default function Home() {
             <span className="yellow-color">4K</span> Ultra HD
           </h1>
           <p className="gray-color mt-4 mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat
-            nam.
+            Vibrant sound & picture quality for an authentic experience.
           </p>
           <div>
             <button>SIGN UP</button>
@@ -31,7 +30,7 @@ export default function Home() {
       </div>
 
       {/* Highlight  */}
-      <div className="highlightsCont">
+      <div id="highlight" className="highlightsCont">
         <Container>
           {" "}
           <h2 className="darkblue-color mb-5">
@@ -42,16 +41,16 @@ export default function Home() {
           <Container>
             <Row className="anchor">
               <Col xs={6} md={3}>
-                <a href="">Instant Share</a>
+                <a href="https://www.youtube.com/@crickai" target="_blank">Instant Share</a>
               </Col>
               <Col xs={6} md={3}>
-                <a href="">Replay</a>
+                <a href="https://www.youtube.com/@crickai" target="_blank">Replay</a>
               </Col>
               <Col xs={6} md={3}>
-                <a href="">4K Ultra HD</a>
+                <a href="https://www.youtube.com/@crickai" target="_blank">4K Ultra HD</a>
               </Col>
               <Col xs={6} md={3}>
-                <a href="">Watch Anywhere</a>
+                <a href="https://www.youtube.com/@crickai" target="_blank">Watch Anywhere</a>
               </Col>
             </Row>
           </Container>
@@ -62,7 +61,7 @@ export default function Home() {
       </div>
 
       {/* Live  */}
-      <div className="liveCont">
+      <div id="live" className="liveCont">
         <Container>
           <Row>
             <Col md={5}>
@@ -72,10 +71,7 @@ export default function Home() {
             <Col md={5}>
               <h2 className='hideInAndroid'>Superior quality live <br /> stream.</h2>
               <p className='gray-color'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh
-                sagittis libero fringilla augue quis rhoncus consectetur. Congue
-                eu etiam augue et amet, adipiscing nunc, sed nibh. Porttitor
-                sapien mi lorem.
+                Experience the best in live cricket with CrickAI's superior quality live stream. Enjoy stunning visuals and crystal-clear audio for an immersive viewing experience like never before.
               </p>
               <div className="sectionA__bottom">
                 <div>
@@ -97,8 +93,7 @@ export default function Home() {
             <Col md={5}>
               <h2 className='hideInAndroid'>Easy to use streaming <br /> platform.</h2>
               <p className='gray-color'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh
-                sagittis libero fringilla augue quis rhoncus consectetur.
+              Stream cricket matches with ease on CrickAI's user-friendly platform. Enjoy a seamless experience with intuitive navigation and hassle-free streaming.
               </p>
               <ul className='list'>
                 <li>Compatible with any screen size</li>
@@ -115,7 +110,7 @@ export default function Home() {
       </div>
 
       {/* Carousel  */}
-      <div className="carouselCont">
+      <div id="review" className="carouselCont">
       <h2 className='darkblue-color text-center mt-5'>What our customers say</h2>
         <MyCarousel />
       </div>
@@ -123,7 +118,7 @@ export default function Home() {
       {/* Signup  */}
       <div className="signupCont">
         <h2>Get Started Today</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        <p>Experience live cricket with vivid 4K detail and clarity. </p>
         <button>SIGN UP</button>
       </div>
 

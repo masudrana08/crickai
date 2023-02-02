@@ -32,37 +32,37 @@ export default function MyCarousel() {
       img: Profile1,
       name: 'Guy Hawkins',
       title: 'President of Sales',
-      description: '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet vitae lacus sed sed elit risus ut. Interdum ac porta sapien, fringilla ultrices faucibus et gravida. At ut rhoncus, blandit mauris, sit. Purus lectus metus, mi, aenean pretium ultricies consectetur nibh. Vehicula cursus enim hendrerit tristique. Ipsum et mi nisl non et”',
+      description: '"I have been using CrickAI for a few months now and I am thoroughly impressed with its performance. It accurately predicts the outcomes of cricket matches and has helped me make informed betting decisions. The user interface is also user-friendly and easy to navigate."',
     },
     {
       img: Profile2,
       name: 'Wade Waren',
       title: 'Medical Assistant',
-      description: '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet vitae lacus sed sed elit risus ut. Interdum ac porta sapien, fringilla ultrices faucibus et gravida. At ut rhoncus, blandit mauris, sit. Purus lectus metus, mi, aenean pretium ultricies consectetur nibh. Vehicula cursus enim hendrerit tristique. Ipsum et mi nisl non et”',
+      description: '"CrickAI has revolutionized the way I follow cricket. The insights and analysis it provides is unparalleled and has helped me understand the game better. The live match predictions are especially helpful during high-stakes matches."',
     },
     {
       img: Profile1,
       name: 'Guy Hawkins',
       title: 'President of Sales',
-      description: '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet vitae lacus sed sed elit risus ut. Interdum ac porta sapien, fringilla ultrices faucibus et gravida. At ut rhoncus, blandit mauris, sit. Purus lectus metus, mi, aenean pretium ultricies consectetur nibh. Vehicula cursus enim hendrerit tristique. Ipsum et mi nisl non et”',
+      description: '"I was skeptical about using a cricket prediction model at first but CrickAI has proven me wrong. Its accuracy is remarkable and I have been consistently making profitable bets thanks to it. I highly recommend it to any cricket fan or bettor."',
     },
     {
       img: Profile2,
       name: 'Wade Waren',
       title: 'Medical Assistant',
-      description: '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet vitae lacus sed sed elit risus ut. Interdum ac porta sapien, fringilla ultrices faucibus et gravida. At ut rhoncus, blandit mauris, sit. Purus lectus metus, mi, aenean pretium ultricies consectetur nibh. Vehicula cursus enim hendrerit tristique. Ipsum et mi nisl non et”',
+      description: '"CrickAI has exceeded my expectations. Not only does it provide match predictions, but it also offers in-depth player analysis and team comparisons. This level of detail helps me make informed decisions and understand the game on a deeper level."',
     },
     {
       img: Profile1,
       name: 'Guy Hawkins',
       title: 'President of Sales',
-      description: '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet vitae lacus sed sed elit risus ut. Interdum ac porta sapien, fringilla ultrices faucibus et gravida. At ut rhoncus, blandit mauris, sit. Purus lectus metus, mi, aenean pretium ultricies consectetur nibh. Vehicula cursus enim hendrerit tristique. Ipsum et mi nisl non et”',
+      description: `"I've tried several cricket prediction tools in the past but none have come close to the accuracy and reliability of CrickAI. Its regular updates and advanced algorithms keep me ahead of the game and I couldn't be happier with my investment in this tool."`,
     },
     {
       img: Profile2,
       name: 'Wade Waren',
       title: 'Medical Assistant',
-      description: '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet vitae lacus sed sed elit risus ut. Interdum ac porta sapien, fringilla ultrices faucibus et gravida. At ut rhoncus, blandit mauris, sit. Purus lectus metus, mi, aenean pretium ultricies consectetur nibh. Vehicula cursus enim hendrerit tristique. Ipsum et mi nisl non et”',
+      description: `"As a hardcore cricket fan, I was thrilled to find CrickAI. It's great to have a tool that gives me a statistical edge in my conversations and debates about the game. The match predictions are spot on and the player analysis is a great added bonus."`,
     },
   ]
   
@@ -85,7 +85,7 @@ export default function MyCarousel() {
        {
          items.map((item, i)=>{
            return (
-             <div className='content'>
+             <div key={i} className='content'>
                <img src={item.img} alt="" />
                <p className='mt-3'>{item.description}</p>
                <div>

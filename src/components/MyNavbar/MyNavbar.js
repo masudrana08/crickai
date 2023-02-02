@@ -18,11 +18,9 @@ export default function MyNavbar() {
           <div >
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto nav-items">
-                <Nav.Link href="#">Live Stream</Nav.Link>
-                <Nav.Link href="#">Game Highlights</Nav.Link>
-                <Nav.Link href="#">Reviews</Nav.Link>
-                <Nav.Link href="#">Support</Nav.Link>
-                <Nav.Link href="#">Login</Nav.Link>
+                <Nav.Link href="#highlight">Game Highlights</Nav.Link>
+                <Nav.Link href="#live">Live Stream</Nav.Link>
+                <Nav.Link href="#review">Reviews</Nav.Link>
                 <button className='signupBtn'>Signup</button>
               </Nav>
             </Navbar.Collapse>
